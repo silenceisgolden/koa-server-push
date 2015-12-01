@@ -45,5 +45,12 @@ app.use(serverpush());
 // }));
 app.use(convert(serve('test/fixtures')));
 
+/**
+ * Note:
+ * Please ensure that the server push middleware is not used after the
+ * middleware that sets the response body and response type. This use case is
+ * not supported at this time.
+ */
+
 app.listen(3000);
 ```
