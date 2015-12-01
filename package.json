@@ -2,7 +2,7 @@
   "name": "koa-server-push",
   "description": "HTTP2 push middleware for koa",
   "repository": "silenceisgolden/koa-server-push",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "bugs": {
     "url": "https://github.com/silenceisgolden/koa-server-push/issues",
     "email": "aj@logicallyabstract.com"
