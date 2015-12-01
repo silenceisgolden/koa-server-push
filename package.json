@@ -2,7 +2,15 @@
   "name": "koa-server-push",
   "description": "HTTP2 push middleware for koa",
   "repository": "silenceisgolden/koa-server-push",
-  "version": "0.0.1",
+  "version": "0.0.8",
+  "bugs": {
+    "url": "https://github.com/silenceisgolden/koa-server-push/issues",
+    "email": "aj@logicallyabstract.com"
+  },
+  "author": {
+    "name": "Alexander Klein",
+    "email": "aj@logicallyabstract.com"
+  },
   "keywords": [
     "koa",
     "middleware",
@@ -12,7 +20,6 @@
   ],
   "dependencies": {
     "chalk": "^1.1.1",
-    "co": "^4.6.0",
     "debug": "^2.2.0",
     "mz": "^2.1.0"
   },
@@ -25,7 +32,8 @@
     "supertest": "^1.1.0"
   },
   "scripts": {
-    "test": "DEBUG=koa-server-push mocha"
+    "test": "DEBUG=koa-server-push mocha",
+    "publish-dev": "npm publish --tag=dev"
   },
-  "license": "MIT" 
+  "license": "MIT"
 }
