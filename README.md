@@ -2,6 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
@@ -69,6 +70,8 @@ app.listen(3000);
 [github-url]: https://github.com/silenceisgolden/koa-server-push/tags
 [travis-image]: https://img.shields.io/travis/silenceisgolden/koa-server-push.svg?style=flat-square
 [travis-url]: https://travis-ci.org/silenceisgolden/koa-server-push
+[coveralls-image]: https://img.shields.io/coveralls/silenceisgolden/koa-server-push.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/silenceisgolden/koa-server-push?branch=master
 [license-image]: http://img.shields.io/npm/l/koa-server-push.svg?style=flat-square
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/koa-server-push.svg?style=flat-square
