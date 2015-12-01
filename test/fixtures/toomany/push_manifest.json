@@ -1,0 +1,46 @@
+{
+  "/css/testing.css": {
+    "type": "style",
+    "weight": 1
+  },
+  "/css/testing0.css": {
+    "type": "style",
+    "weight": 1
+  },
+  "/css/testing1.css": {
+    "type": "style",
+    "weight": 1
+  },
+  "/css/testing2.css": {
+    "type": "style",
+    "weight": 1
+  },
+  "/css/testing3.css": {
+    "type": "style",
+    "weight": 1
+  },
+  "/css/testing4.css": {
+    "type": "style",
+    "weight": 1
+  },
+  "/js/testing.js": {
+    "type": "script",
+    "weight": 1
+  },
+  "/js/testing0.js": {
+    "type": "script",
+    "weight": 1
+  },
+  "/js/testing1.js": {
+    "type": "script",
+    "weight": 1
+  },
+  "/js/testing2.js": {
+    "type": "script",
+    "weight": 1
+  },
+  "/js/testing3.js": {
+    "type": "script",
+    "weight": 1
+  }
+}
