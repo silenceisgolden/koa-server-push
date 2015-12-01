@@ -1,4 +1,10 @@
 # koa-server-push
+
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
+
 HTTP2 Server Push middleware for Koa
 
 ## Installation
@@ -56,3 +62,14 @@ app.use(convert(serve('test/fixtures')));
 
 app.listen(3000);
 ```
+
+[npm-image]: https://img.shields.io/npm/v/koa-server-push.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/koa-server-push
+[github-tag]: http://img.shields.io/github/tag/silenceisgolden/koa-server-push.svg?style=flat-square
+[github-url]: https://github.com/silenceisgolden/koa-server-push/tags
+[travis-image]: https://img.shields.io/travis/silenceisgolden/koa-server-push.svg?style=flat-square
+[travis-url]: https://travis-ci.org/silenceisgolden/koa-server-push
+[license-image]: http://img.shields.io/npm/l/koa-server-push.svg?style=flat-square
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/koa-server-push.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/koa-server-push
