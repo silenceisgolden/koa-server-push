@@ -1,0 +1,31 @@
+{
+  "name": "koa-server-push",
+  "description": "HTTP2 push middleware for koa",
+  "repository": "silenceisgolden/koa-server-push",
+  "version": "0.0.1",
+  "keywords": [
+    "koa",
+    "middleware",
+    "manifest",
+    "server",
+    "push"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "co": "^4.6.0",
+    "debug": "^2.2.0",
+    "mz": "^2.1.0"
+  },
+  "main": "lib/serverpush.js",
+  "devDependencies": {
+    "koa": "^2.0.0-alpha.3",
+    "koa-convert": "^1.2.0",
+    "koa-static": "^1.5.2",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "DEBUG=koa-server-push mocha"
+  },
+  "license": "MIT" 
+}
