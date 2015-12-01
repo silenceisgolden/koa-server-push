@@ -10,10 +10,11 @@ $ npm install koa-server-push
 Usage for Koa 2.x (current version of node)
 ```js
 const Koa = require('koa');
-const serverpush = require('..');
+const serverpush = require('koa-server-push');
 const app = new Koa();
 
 app.use(serverpush());
+// OR
 // app.use(serverpush({
 //   manifestName: 'anothername.json',
 //   gaeproxy: true,
@@ -33,11 +34,12 @@ app.use(serverpush());
 const Koa = require('koa');
 const serve = require('koa-static');
 const convert = require('koa-convert');
-const serverpush = require('..');
+const serverpush = require('koa-server-push');
 
 const app = new Koa();
 
 app.use(serverpush());
+// OR
 // app.use(serverpush({
 //   manifestName: 'anothername.json',
 //   gaeproxy: true,
