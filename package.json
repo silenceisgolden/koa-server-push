@@ -26,6 +26,7 @@
   "main": "lib/serverpush.js",
   "devDependencies": {
     "istanbul": "^0.4.1",
+    "istanbul-coveralls": "^1.0.3",
     "koa": "^2.0.0-alpha.3",
     "koa-convert": "^1.2.0",
     "koa-static": "^1.5.2",
@@ -33,12 +34,10 @@
     "supertest": "^1.1.0"
   },
   "scripts": {
-    "coverage": "istanbul cover _mocha -- -R spec",
     "open-coverage": "open coverage/lcov-report/*.html",
     "publish": "npm publish",
     "publish-dev": "npm publish --tag=dev",
-    "test": "./node_modules/mocha/bin/mocha",
-    "test-dev": "DEBUG=koa-server-push mocha"
+    "test": "istanbul cover _mocha && istanbul-coveralls",
   },
   "license": "MIT"
 }
